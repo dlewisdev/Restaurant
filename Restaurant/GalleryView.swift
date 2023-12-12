@@ -9,6 +9,8 @@ import SwiftUI
 
 struct GalleryView: View {
     @State var photoData = [String]()
+    @State var sheetVisible: Bool = false
+    @State var selectedPhoto: String = ""
     var dataService = DataService()
     
     var body: some View {
@@ -29,12 +31,19 @@ struct GalleryView: View {
                                 .aspectRatio(contentMode: .fill)
                                 .frame(maxWidth: (geo.size.width - 50) / 3)
                                 .clipped()
+                                .onTapGesture {
+                                    selectedPhoto = photo
+                                    sheetVisible = true
+                                }
                         }
                     }
                 }
                 .padding(.horizontal)
                 .onAppear {
                     photoData = dataService.getGalleryData()
+                }
+                .sheet(isPresented: $sheetVisible) {
+                    PhotoView(photo: $selectedPhoto, sheetVisible: $sheetVisible)
                 }
             }
         }
