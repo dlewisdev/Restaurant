@@ -13,11 +13,18 @@ struct MenuView: View {
     
     
     var body: some View {
-        VStack{
-            ForEach(menuItems) { item in
-                MenuListRow(item: item)
+        VStack(alignment: .leading) {
+            Text("Menu")
+                .font(.largeTitle)
+                .bold()
+                .padding(.top)
+            ScrollView {
+                ForEach(menuItems) { item in
+                    MenuListRow(item: item)
+                }
             }
         }
+        .padding()
         .onAppear {
             menuItems = dataService.getData()
         }
