@@ -25,6 +25,7 @@ struct AboutView: View {
                 Image(.map)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
+                    .padding(.vertical, 20)
                 
                 Text("""
                     Tsukamoto Sogyo Building
