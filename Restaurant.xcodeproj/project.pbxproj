@@ -17,6 +17,7 @@
 		713A13762B27C30B00955E6E /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713A13732B27C30B00955E6E /* MenuListRow.swift */; };
 		713A13772B27C30B00955E6E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713A13742B27C30B00955E6E /* MenuItem.swift */; };
 		713A13792B27C4DA00955E6E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 713A13782B27C4DA00955E6E /* MainView.swift */; };
+		719284622B280B2B00965797 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 719284612B280B2B00965797 /* PhotoView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		713A13732B27C30B00955E6E /* MenuListRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuListRow.swift; path = ../../MenuApp/MenuApp/MenuListRow.swift; sourceTree = "<group>"; };
 		713A13742B27C30B00955E6E /* MenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuItem.swift; path = ../../MenuApp/MenuApp/MenuItem.swift; sourceTree = "<group>"; };
 		713A13782B27C4DA00955E6E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		719284612B280B2B00965797 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				713A13722B27C30B00955E6E /* DataService.swift */,
 				713A13742B27C30B00955E6E /* MenuItem.swift */,
 				713A13732B27C30B00955E6E /* MenuListRow.swift */,
+				719284612B280B2B00965797 /* PhotoView.swift */,
 				713A13622B27C1A000955E6E /* Assets.xcassets */,
 				713A13642B27C1A000955E6E /* Preview Content */,
 			);
@@ -158,6 +161,7 @@
 				713A13762B27C30B00955E6E /* MenuListRow.swift in Sources */,
 				713A13712B27C2C900955E6E /* MenuView.swift in Sources */,
 				713A13792B27C4DA00955E6E /* MainView.swift in Sources */,
+				719284622B280B2B00965797 /* PhotoView.swift in Sources */,
 				713A136D2B27C2AB00955E6E /* AboutView.swift in Sources */,
 				713A13752B27C30B00955E6E /* DataService.swift in Sources */,
 				713A13772B27C30B00955E6E /* MenuItem.swift in Sources */,
